@@ -1,0 +1,19 @@
+[options]
+; Ruta de los addons de Odoo
+addons_path=C:\Users\Usuario\Desktop\DockerProject\odoo-17.0\addons
+
+; Configuración de la base de datos
+db_host=172.18.0.2
+db_port=5432
+db_user=odoo
+db_password=myodoo
+db_name=postgres
+
+; Contraseña del administrador de Odoo
+admin_passwd=admin
+
+; Archivo de log de Odoo
+log_file=C:\Users\Usuario\Desktop\DockerProject\odoo-17.0\logfile.log
+
+; Configuración del puerto HTTP
+http_port=8069
